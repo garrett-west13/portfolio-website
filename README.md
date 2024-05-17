@@ -17,7 +17,7 @@ This project aims to create a professional portfolio website to showcase my web 
 
 - **React**: A JavaScript library for building user interfaces.
 - **React Router**: For client-side routing and navigation.
-- **CSS Framework**: TBD (Bootstrap, Material-UI, Tailwind CSS) for styling.
+- **CSS Framework**: Bootstrap for styling.
 
 ## Development Environment
 
