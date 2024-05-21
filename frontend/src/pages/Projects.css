@@ -1,6 +1,3 @@
-.container {
-    margin-top: 20px;
-  }
   
   .card {
     transition: transform 0.2s, box-shadow 0.2s;
@@ -19,3 +16,4 @@
     border: 2px solid #ccc; 
     margin-bottom: 10px; 
   }
+

@@ -20,8 +20,8 @@ const projects = [
 function Projects() {
   return (
     <div className="container my-5">
-      <h2 className="text-center mb-4">My Projects</h2>
-      <div className="row">
+      <h2 className="text-center mb-5">My Projects</h2>
+      <div className="row mt-5">
         {projects.map((project, index) => (
           <div className="col-12 col-md-6 mb-4" key={index}>
             <div className="card h-100">
