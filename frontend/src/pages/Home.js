@@ -9,7 +9,10 @@ function Home() {
           <div className="text-center home-container">
             <h1 className="mb-4">Welcome to My Portfolio</h1>
             <p className="lead">
-              Hi, I'm <strong className="text-primary"><a className="no-underline" href='/about'>Garrett West</a></strong>, a web developer passionate about creating awesome websites and applications. Explore my portfolio to see some of my projects and learn more about me.
+              Hi, I'm <strong className="text-primary"><a className="no-underline" href='/about'>Garrett West</a></strong>, a dedicated web developer with a passion for crafting engaging and innovative websites and applications. With expertise in modern web technologies and a keen eye for detail, I strive to build seamless user experiences.
+            </p>
+            <p>
+              Dive into my portfolio to explore the projects I've worked on, each showcasing my skills in HTML, CSS, JavaScript, React, Node.js, and more. Whether it's front-end design or back-end development, I'm excited to share my journey and work with you.
             </p>
             <Link to="/projects" className="btn btn-primary">
               View Projects

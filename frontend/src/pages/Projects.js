@@ -6,13 +6,17 @@ const projects = [
     title: "Password Manager",
     description: "A password manager that allows users to store and retrieve passwords securely.",
     link: "https://github.com/garrett-west13/PasswordManager",
-    image: "/password-manager.png" 
+    image: "/password-manager.png",
+    technologies: ["Flask", "Python", "JavaScript"],
+    features: ["Secure storage", "User authentication", "Password generation"]
   },
   {
     title: "Budget App",
     description: "A budget app that allows users to track their expenses and income.",
     link: "https://github.com/garrett-west13/budget-app",
-    image: "/budget-app.png"
+    image: "/budget-app.png",
+    technologies: ["Django", "Python", "JavaScript"],
+    features: ["Expense tracking", "Income tracking", "Yearly budget report"]
   },
   // Add more projects as needed
 ];
@@ -29,6 +33,8 @@ function Projects() {
               <div className="card-body">
                 <h5 className="card-title">{project.title}</h5>
                 <p className="card-text">{project.description}</p>
+                <p><strong>Technologies:</strong> {project.technologies.join(', ')}</p>
+                <p><strong>Features:</strong> {project.features.join(', ')}</p>
                 <a href={project.link} className="btn btn-primary" target="_blank" rel="noopener noreferrer">View Project</a>
               </div>
             </div>
