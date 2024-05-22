@@ -1,11 +1,26 @@
 .footer {
-  background-color: #ececec; 
-  color: #333; 
-  padding: 20px; 
-  text-align: center; 
-  position: fixed; 
-  width: 100%; 
-  bottom: 0; 
-  box-shadow: 0 -2px 4px rgba(0, 0, 0, 0.1); 
+  background-color: #ececec;
+  color: #333;
+  padding: 20px;
+  text-align: center;
+  box-shadow: 0 -2px 4px rgba(0, 0, 0, 0.1);
   border-top: 1px solid #ccc;
+  margin-top: auto;
+}
+
+.footer p {
+  margin: 0;
+  font-size: 16px;
+}
+
+.footer a {
+  color: #333;
+  margin: auto 10px;
+}
+
+@media (max-width: 768px) {
+  .footer {
+    padding: 10px;
+    font-size: 14px;
+  }
 }

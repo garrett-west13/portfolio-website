@@ -47,7 +47,7 @@ function AboutMe() {
           </ul>
         </div>
         <div className="self-taught">
-          <h3>Self-Taught</h3>
+          <h3 className="mb-3 border-bottom">Self-Taught</h3>
           <div className="courses">
             <div className="course">
               <img

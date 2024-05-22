@@ -1,19 +1,48 @@
-  
-  .card {
-    transition: transform 0.2s, box-shadow 0.2s;
-  }
-  
-  .card:hover {
-    transform: translateY(-5px);
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-  }
-  
-  .card-img-top {
-    width: 100%; 
-    height: auto; 
-    object-fit: cover;
-    padding: 10px; 
-    border: 2px solid #ccc; 
-    margin-bottom: 10px; 
-  }
 
+
+h2 {
+  color: var(--primary-color) !important;
+}
+
+.card {
+  transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.card-img-top {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+  padding: 10px;
+  border: 2px solid var(--secondary-color);
+  margin-bottom: 10px;
+}
+
+.project-card {
+  border: 1px solid var(--secondary-color); 
+  border-radius: 10px; 
+  overflow: hidden; 
+}
+
+.project-card .card-body {
+  padding: 20px;
+}
+
+.project-card .card-title {
+  font-size: 1.25rem;
+  margin-bottom: 10px;
+}
+
+.card-title {
+  color: var(--primary-color) !important;
+}
+
+.projects {
+  margin-bottom: 5%;
+  margin-top: 2.5%;
+  padding: 50px;
+}

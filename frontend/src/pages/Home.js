@@ -5,7 +5,7 @@ function Home() {
   return (
     <div className="container">
       <div className="row justify-content-center align-items-center">
-        <div className="col-md-6">
+        <div className="col-md-7">
           <div className="text-center home-container">
             <h1 className="mb-4">Welcome to My Portfolio</h1>
             <p className="lead">
