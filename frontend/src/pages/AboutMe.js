@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import './AboutMe.css'; // Make sure to create this CSS file
+import './AboutMe.css'; 
 
 function AboutMe() {
   const [enlargedImgSrc, setEnlargedImgSrc] = useState(null);
@@ -18,24 +18,24 @@ function AboutMe() {
         <div className="profile">
           <img
             src="/profile.jpg"
-            alt="Profile"
+            alt="Garrett West's Profile"
             className="profile-img"
             onClick={() => handleImgClick('/profile.jpg')}
           />
           <h2>Garrett West</h2>
-          <p>Web Developer Enthusiast</p>
+          <p>Web Developer</p>
         </div>
         <div className="bio">
-        <h3>About Me</h3>
-        <p>
-        Hello! I'm Garrett, a passionate web developer skilled in HTML, CSS, JavaScript, React, and Node.js. I love creating dynamic and responsive web applications.
-        </p>
-        <p>
-          I'm expanding my skill set to full-stack development with Python, Flask, Django, and SQL databases to build robust, scalable applications.
-        </p>
-        <p>
-          I enjoy solving complex problems and continuously improving my coding skills. My goal is to leverage my technical skills and creativity to build impactful web applications.
-        </p>
+          <h3>About Me</h3>
+          <p>
+            Hello! I'm Garrett, a passionate web developer with experience in HTML, CSS, JavaScript, React, Node.js, Python, Flask, and Django. I love creating dynamic and responsive web applications.
+          </p>
+          <p>
+            I enjoy solving complex problems and continuously improving my coding skills. My goal is to leverage my technical expertise and creativity to build impactful web applications, and I'm committed to continuous learning and growth.
+          </p>
+          <p>
+            Whether it's using familiar technologies or exploring new ones, I thrive on overcoming challenges and expanding my skill set.
+          </p>
         </div>
         <div className="skills">
           <h3>Skills</h3>
@@ -52,12 +52,12 @@ function AboutMe() {
             <div className="course">
               <img
                 src="/freeCodeCamp.png"
-                alt="HTML and CSS Course"
+                alt="HTML and CSS Responsive Web Design Course"
                 onClick={() => handleImgClick('/freeCodeCamp.png')}
               />
               <p>
                 <a
-                  href="https://www.freecodecamp.org/garrett_west"
+                  href="https://www.freecodecamp.org/certification/garrett_west/responsive-web-design"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
@@ -68,32 +68,32 @@ function AboutMe() {
             <div className="course">
               <img
                 src="/CS50x.png"
-                alt="CS50x Introduction Course"
+                alt="CS50's Introduction to Computer Science Course"
                 onClick={() => handleImgClick('/CS50x.png')}
               />
               <p>
                 <a
-                  href="https://www.edx.org/learn/computer-science/harvard-university-cs50-s-introduction-to-computer-science?webview=false&campaign=CS50%27s+Introduction+to+Computer+Science&source=edx&product_category=course&placement_url=https%3A%2F%2Fwww.edx.org%2Fschool%2Fharvardx"
+                  href="https://cs50.harvard.edu/certificates/614eada8-8255-4cb7-ba2a-cba79dbbd56a"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
-                  CS50's Introduction to Computer Science (edx)
+                  CS50's Introduction to Computer Science (edX)
                 </a>
               </p>
             </div>
             <div className="course">
               <img
                 src="/CS50W.png"
-                alt="CS50W Web Programming Course"
+                alt="CS50's Web Programming with Python and JavaScript Course"
                 onClick={() => handleImgClick('/CS50W.png')}
               />
               <p>
                 <a
-                  href="https://www.edx.org/learn/web-development/harvard-university-cs50-s-web-programming-with-python-and-javascript?webview=false&campaign=CS50%27s+Web+Programming+with+Python+and+JavaScript&source=edx&product_category=course&placement_url=https%3A%2F%2Fwww.edx.org%2Fschool%2Fharvardx"
+                  href="https://cs50.harvard.edu/certificates/3c420b93-6ccb-4676-b9a5-f74625f1855e"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
-                  CS50's Web Programming with Python and JavaScript (edx)
+                  CS50's Web Programming with Python and JavaScript (edX)
                 </a>
               </p>
             </div>
@@ -106,7 +106,7 @@ function AboutMe() {
           <div className="overlay" onClick={handleCloseEnlargedImg}></div>
           <img
             src={enlargedImgSrc}
-            alt="Enlarged"
+            alt="Enlarged Course Certificate"
             className="enlarged"
             onClick={handleCloseEnlargedImg}
           />
