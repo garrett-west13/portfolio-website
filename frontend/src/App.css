@@ -1,5 +1,5 @@
 :root {
-    --primary-color: #007BFF;
+    --primary-color: #0063cc;
     --secondary-color: #6C757D;
     --background-color: #F8F9FA;
     --text-color: #343A40;
@@ -27,6 +27,8 @@
     margin-top: 2.5%;
     margin-bottom: 10%;
     box-shadow: inset 0 0 10px rgba(0, 123, 255, 0.5);
+    background-image: url(/public/Blue-background.jpg);
+    border: 3px solid black;
 }
 
 
@@ -37,7 +39,7 @@
   .home-container {
     padding: 80px;
     border: 8px double var(--secondary-color);
-    border-radius: 10px;
+    border-radius: 20px;
     background-color: var(--background-color);
     margin-top: 20%;
     margin-bottom: 20%;

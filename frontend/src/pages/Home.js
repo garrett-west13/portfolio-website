@@ -12,7 +12,7 @@ function Home() {
               Hi, I'm <strong className="text-primary"><a className="no-underline" href='/about'>Garrett West</a></strong>, a dedicated web developer with a passion for crafting engaging and innovative websites and applications. With experience in modern web technologies and a keen eye for detail, I strive to build seamless user experiences.
             </p>
             <p>
-              Dive into my portfolio to explore the projects I've worked on, showcasing my skills in HTML, CSS, JavaScript, Python, Django, and more. Whether it's front-end design or back-end development, I'm excited to share my journey and work with you.
+              Dive into my portfolio to explore the projects I've worked on, showcasing my skills in HTML, CSS, JavaScript, Python, Django, and more. Whether it's front-end or back-end development, I'm excited to share my journey and work with you.
             </p>
             <Link to="/projects" className="btn btn-primary">
               View Projects
