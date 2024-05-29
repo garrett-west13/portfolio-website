@@ -26,7 +26,7 @@ This project aims to create a professional portfolio website to showcase my web 
 
 ## Deployment
 
-- **Frontend**: Deployed to a hosting platform (TBD).
+- **Frontend**: Deployed to a hosting platform (Netlify).
 - **Custom Domains**: Configured for the frontend.
 - **SSL Certificates**: Enabled for secure communication.
 
