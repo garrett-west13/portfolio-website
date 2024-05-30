@@ -24,12 +24,7 @@ This project aims to create a professional portfolio website to showcase my web 
 - **Code Editor**: Visual Studio Code
 - **Version Control**: Git
 
-## Deployment
+## Deployment 
+- Deployed to a hosting platform (Netlify).
 
-- **Frontend**: Deployed to a hosting platform (Netlify).
-- **Custom Domains**: Configured for the frontend.
-- **SSL Certificates**: Enabled for secure communication.
 
-## Notes
-
-This project is a work in progress and will be continuously updated with new features and improvements. Feedback welcome!
