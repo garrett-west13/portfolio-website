@@ -83,7 +83,7 @@ function Contact() {
           <a href="https://github.com/garrett-west13" target="_blank" rel="noopener noreferrer">
             <FaGithub size={30} />
           </a>
-          <a href="https://linkedin.com/in/garrett-west-8454b8310
+          <a href="https://linkedin.com/in/garrett-west13
 " target="_blank" rel="noopener noreferrer">
             <FaLinkedin size={30} />
           </a>
