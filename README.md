@@ -2,7 +2,7 @@
 
 ## Overview
 
-This project aims to create a professional portfolio website to showcase my web development skills, projects, and experiences. The portfolio website will serve as a platform to target potential employers, clients, and freelance opportunities, with the goal of increasing my chances of landing a job in software development or attracting freelance work.
+This project aims to create a professional portfolio website to showcase my web development skills, projects, and experiences. The portfolio website was coded from scratch, ensuring a unique and customized presentation of my work. It will serve as a platform to target potential employers, clients, and freelance opportunities.
 
 ## Features
 
@@ -24,7 +24,6 @@ This project aims to create a professional portfolio website to showcase my web 
 - **Code Editor**: Visual Studio Code
 - **Version Control**: Git
 
-## Deployment 
+## Deployment
+
 - Deployed to a hosting platform (Netlify).
-
-
